@@ -38,3 +38,18 @@ button {
     display: block;
     margin: 12px 0;
 }
+
+.login-card {
+    background-color: white;
+    width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.login-card input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+}

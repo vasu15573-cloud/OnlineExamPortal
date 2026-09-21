@@ -16,3 +16,14 @@ function submitExam() {
         result.textContent = "Wrong answer!";
     }
 }
+
+function login() {
+    const username = document.getElementById("username").value;
+    const loginMessage = document.getElementById("loginMessage");
+
+    if (username === "") {
+        loginMessage.textContent = "Please enter your username.";
+    } else {
+        loginMessage.textContent = "Login successful!";
+    }
+}
