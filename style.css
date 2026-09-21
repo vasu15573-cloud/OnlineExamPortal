@@ -28,3 +28,13 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.question {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.question label {
+    display: block;
+    margin: 12px 0;
+}
