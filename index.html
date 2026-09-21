@@ -11,39 +11,49 @@
     <div class="container">
         <h1>Online Exam Portal</h1>
 
-        <p>Welcome to the Online Examination System</p>
+        <div class="login-card">
+            <h2>Student Login</h2>
+
+            <input type="text" id="username" placeholder="Enter username">
+
+            <input type="password" id="password" placeholder="Enter password">
+
+            <button onclick="login()">Login</button>
+
+            <p id="loginMessage"></p>
+        </div>
 
         <div class="exam-card">
-    <h2>General Knowledge Test</h2>
+            <h2>General Knowledge Test</h2>
 
-    <div class="question">
-        <h3>1. What is the capital of India?</h3>
+            <div class="question">
+                <h3>1. What is the capital of India?</h3>
 
-        <label>
-            <input type="radio" name="question1">
-            Mumbai
-        </label>
+                <label>
+                    <input type="radio" name="question1">
+                    Mumbai
+                </label>
 
-        <label>
-            <input type="radio" name="question1">
-            New Delhi
-        </label>
+                <label>
+                    <input type="radio" name="question1">
+                    New Delhi
+                </label>
 
-        <label>
-            <input type="radio" name="question1">
-            Hyderabad
-        </label>
+                <label>
+                    <input type="radio" name="question1">
+                    Hyderabad
+                </label>
 
-        <label>
-            <input type="radio" name="question1">
-            Chennai
-        </label>
-    </div>
+                <label>
+                    <input type="radio" name="question1">
+                    Chennai
+                </label>
+            </div>
 
-    <button onclick="submitExam()">Submit Answer</button>
+            <button onclick="submitExam()">Submit Answer</button>
 
-<p id="result"></p>
-</div>
+            <p id="result"></p>
+        </div>
     </div>
 
     <script src="script.js"></script>
